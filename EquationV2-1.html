@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Equation JavaScript</title>
+		<meta charset="utf-8"/>
+		<script src="EquationV2-1.js">
+		</script>
+	</head>
+<body><center>
+	<h2>Solving quadratic equation - models:  AX<sup>2</sup>+BX+C=0</h2>
+	<b>With A ≠ 0 and C ≠ 0</b>
+	<p><h3>Enter the values: </p>
+	
+	<form name=form1>
+		<input type="text" name="a" value="" size="1" oninput=miroir()> X<sup>2</sup> + 
+		<input type="text" name="b" value="" size="1" oninput=miroir()> X +
+		<input type="text" name="c" value="" size="1" oninput=miroir()> = 0
+		<input type="button" name="calcul" value="Calculate" onClick=main()></h3>
+		<label><h2><em>
+		Your equation: <font color="green">
+		<b><output name="aff1"></output>x<sup>2</sup> +  
+		<output name="aff2"></output> x 
+		<output name="aff3"></output> = 0
+		</b></font></em></h2></label>	 
+		<hr><em><h4>result display:</h4></em>
+		<textarea cols="65" rows="15" name="result" value="" disabled="yes">
+		</textarea>
+		<br>
+		<input type="reset" name="res" value="Reset">
+	</form>
+	<br><br><br><br><br>
+	<font color="gray" size="3"><a href="https://github.com/IsaSam" target="new">Created by Isaac</a></font>
+	</center>
+</body>
+</html>
