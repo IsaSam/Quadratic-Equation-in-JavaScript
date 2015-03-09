@@ -4,7 +4,6 @@ function miroir(){
 	mi1=document.form1.a.value;
 	mi2=document.form1.b.value;
 	mi3=document.form1.c.value;
-	c=2;
 	if (mi1==1){
 		document.form1.aff1.value="";
 	}
